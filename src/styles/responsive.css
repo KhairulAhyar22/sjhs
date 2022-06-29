@@ -1,0 +1,83 @@
+@media screen and (max-width: 1100px) {
+    .nav-inner {
+        width: 80%;
+    }
+    .hero {
+        width: 90%;
+    }
+    .inner-description-app {
+        width: 85%;
+    }
+    .inner-article {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .hero {
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+        margin: 100px auto 20px auto;
+    }
+    .detail-hero {
+        text-align: center;
+    }
+    .list-article {
+        grid-template-columns: 1fr 1fr;
+    }
+    .list-develop {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 700px) {
+    .nav-inner {
+        width: 100%;
+        padding-left: 0;
+    }
+    .nav_list {
+        width: 150px;
+        background-color: #01123d;
+        position: absolute;
+        transform: translate( -700px, 0);
+        transition: transform 0.4s ease-in-out;
+    }
+    .navigation .menu ul li {
+        display: block;
+        padding: 15px 16px;
+    }
+    .open {
+        transform: translate( 0, 10px);
+    }
+    .list-article {
+        grid-template-columns: 1fr;
+    }
+    .inner-description-app > .detail-description {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .develop {
+        grid-template-columns: 1fr;
+    }
+    .box-profil {
+        grid-template-columns: 1fr;
+    }
+    .object-vertical {
+        height: 3px;
+        width: 90%;
+        background-color: rgb(0, 0, 70);
+        margin: 15px auto;
+    }
+    .motto {
+        padding: 10px 20px;
+    }
+}
+@media screen and (min-width: 700px) {
+    .humberger-menu {
+        display: none;
+    }
+    .nav-inner {
+        grid-template-columns: 1fr auto;
+    }
+}

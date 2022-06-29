@@ -1,0 +1,73 @@
+.form {
+	position:relative;
+	background: #250ef6;
+	border-radius: 6px;
+	max-width:400px;
+	width: 90%;
+	margin: 110px auto 50px auto;
+	padding: 20px;
+	text-align: center;	
+    box-shadow: 0px 4px 16px rgba(17, 0, 94, 0.562);
+    font-size: 20px;
+    z-index: 0;
+}
+.inner-form {
+    margin: 30px auto;
+}
+.form-title {
+    color: rgb(10, 0, 41); 
+    font-weight: 900;
+    letter-spacing: 5px;
+	font-size: 35px;
+    margin-bottom: 20px;
+}
+.form input {
+	background: white;
+	border-radius: 5px;
+	width: 90%;
+	border: none;
+	margin: 13px auto;
+	padding: 12px;
+	font-size: 14px;	
+}
+#btnl {
+    display: inline-block;
+    border-radius: 3px;
+}
+#btn, #btnl {
+    width: 45%;
+    cursor: pointer;
+    background-color: #15133C;
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    padding: 12px;
+    font-weight: 500;
+}
+
+#btn:hover {
+    background-color:#1a1472;
+    box-shadow: 0px 4px 12px rgba(17, 0, 94, 0.8);
+}
+hr {
+    width: 90%;
+    height: 4px;
+    background-color: rgb(4, 4, 48);
+    border: none;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+.form-text {
+    color: #15133C;
+    font-weight: 600;
+    margin: 15px auto;
+}
+.show-register {
+    color: rgb(144, 222, 253);
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+}
+.show-register:hover {
+    color: rgb(207, 238, 250);
+}

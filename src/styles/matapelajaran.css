@@ -1,0 +1,102 @@
+
+.box-list-study {
+    max-width: 1100px;
+    width: 95%;
+    margin: 80px auto 50px auto;
+    background-color: rgb(248, 242, 234);    
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 2px rgba(39, 37, 44, 0.479);
+}
+.box-image-teacher {
+    overflow: hidden;
+    max-height: 350px;
+    width: 100%;
+}
+.image-teacher {
+    width: 100%;
+    max-height: 400px;    
+    object-fit: cover;
+    object-position: center;
+}
+.detail-list-study {
+    margin: 20px 30px;
+}
+.detail-list-study > h4 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.list-study {
+    text-align: center;
+}
+.item-study {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 0 5px 15px 5px;
+    background-color: white;   
+    border-radius: 5px;
+}
+.item-study:hover {
+    box-shadow: 0 0 8px rgb(197, 195, 195);
+}
+.item-study > a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+}
+/*list-book*/
+.list-book {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto 40px auto;
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+.book {
+    overflow: hidden;    
+    background-color: rgb(248, 242, 234);
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(39, 37, 44, 0.479);
+}
+.book > h4 {
+    font-size: 22px;
+    text-align: center;
+    margin: 20px;
+}
+.book > img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+.book .detail-book {
+    padding: 25px;    
+    font-size: 18px;
+}
+.book .detail-book > a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 10px;
+    color: rgb(38, 2, 104);
+}
+.book .detail-book > a:hover {
+    color: rgb(26, 26, 219);
+    text-decoration: underline;
+}
+@media screen and (max-width: 800px){
+    .list-book {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 600px){
+    .list-book {
+        grid-template-columns: 1fr;
+    }
+}
+
+

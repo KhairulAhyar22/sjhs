@@ -1,0 +1,59 @@
+.box-color-dark {
+    background-color: rgb(248, 242, 234);
+}
+.inner-description-app {
+    max-width: 1000px;
+    width: 100%;
+    margin: 60px auto 0 auto;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    line-height: 1.5em;
+}
+.inner-description-app > .title {
+    margin-bottom: 20px;
+}
+
+/*
+tim
+*/
+.bio-tim {
+    padding: 20px;
+    width: 100%;
+}
+.inner-bio-tim {
+    max-width: 1000px;
+    width: 95%;
+    margin: 70px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.picture {
+    overflow: hidden;
+    height: 400px;
+    margin: 0 auto;
+}
+.image-tim {
+    height: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+.detail-biodata {
+    margin-left: 40px;
+    font-size: 20px;
+}
+.detail-biodata > hr {
+    margin: 10px 0 10px 0;
+    height: 2px;
+}
+.title-desc-tim {
+    margin: 10px 0;
+}
+@media screen and (max-width: 900px) {
+    .inner-bio-tim {        
+    grid-template-columns: 1fr;
+    }
+    .picture {
+        margin-bottom: 30px;
+    }
+}

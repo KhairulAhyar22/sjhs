@@ -1,0 +1,200 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+}
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1100px;
+    width: 100%;
+    margin: 120px auto 100px auto;
+
+}
+.hero-image {
+    max-width: 400px;
+    min-height: 250px;
+    width: 95%;
+    object-fit: cover;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.616);
+}
+.detil-hero {
+    padding: 25px;
+}
+.detil-hero .description-hero {
+    font-size: 30px;
+}
+.detil-hero > .button-login {
+    padding: 10px 13px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    background-color: #01123d;
+    display: inline-block;
+    margin: 30px 0;
+    text-decoration: none;
+}
+.detil-hero > .button-login:hover {
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.616);
+}
+
+/*latarbelakang*/
+.description-app {
+    width: 100%;
+    background-color: rgb(248, 242, 234);
+}
+.inner-description-app {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.inner-description-app > .title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.inner-description-app > .detail-description {
+    font-size: 22px;
+    text-align: justify;
+    margin-bottom: 15px;
+    line-height: 1.5em;
+}
+
+/*list article*/
+.container-article {
+    width: 100%;
+}
+.inner-article {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.inner-article > .title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.list-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px 20px;
+}
+.list-article > article {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow:  0px 0px 8px rgba(76, 0, 255, 0.356);
+    color: white;
+    background-color: #00103b;
+}
+.article-image {
+    width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+.article-detail {
+    padding: 15px 25px;
+}
+.article-title {
+    font-size: 22px;
+    padding: 10PX 0;
+}
+.article-description {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.read-more {
+    color: white;
+    font-size: 18px;
+    padding: 10px 0;
+    display: inline-block;
+}
+.read-more:hover {
+    color: rgb(162, 162, 255);
+}
+/*tim pengembang*/
+.container-develop {
+    width: 100%;
+}
+.box-title {
+    background-color: rgb(248, 242, 234);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.develop-title {
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 0;
+}
+.list-develop {
+    max-width: 1100px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+    gap: 30px 15px;
+    width: 100%;
+}
+.develop {
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 70);
+    padding: 20px 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.box-profil {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+.profil {
+    margin: auto;
+}
+.profil-photo {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 5px solid rgb(0, 0, 70);
+}
+.profil-photo > img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.profil-name {
+    margin: 15px auto 0 auto;
+    font-size: 22px;
+    width: 80%;
+    text-align: center;
+}
+.object-vertical {
+    height: 100%;
+    width: 3px;
+    background-color: rgb(0, 0, 70);
+    margin-right: 10px;
+}
+.motto {
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: 18px;
+    line-height: 1.4em;
+    text-align: justify;
+}
+.motto > table {
+    margin-bottom: 15px;
+}
